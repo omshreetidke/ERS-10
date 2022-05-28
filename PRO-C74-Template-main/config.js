@@ -1,14 +1,13 @@
 import firebase from "firebase";
 
 
-var firebaseConfig = {
-  apiKey: "AIzaSyCZrG0BF6LrnRpWZjsPQxNGyMCLByo8HrM",
-  authDomain: "e-ride-549e4.firebaseapp.com",
-  projectId: "e-ride-549e4",
-  storageBucket: "e-ride-549e4.appspot.com",
-  messagingSenderId: "588298110700",
-  appId: "1:588298110700:web:34e3df331c6b1fc95047c9",
-  measurementId: "G-G3K7BWL5LH"
+const firebaseConfig = {
+  apiKey: "AIzaSyAF5D2SN3W0qQSJ0eLO7l5e1cJ4ltWiWsA",
+  authDomain: "e-ride-stage-ed526.firebaseapp.com",
+  projectId: "e-ride-stage-ed526",
+  storageBucket: "e-ride-stage-ed526.appspot.com",
+  messagingSenderId: "865856960477",
+  appId: "1:865856960477:web:b09f79d0c5ccf5ff9be834"
 };
 
 firebase.initializeApp(firebaseConfig);
